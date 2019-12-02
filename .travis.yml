@@ -40,9 +40,9 @@ deploy:
     secure: "Ipp50Lq+/x03czeUOpm7SP1Q+Zcn47LPrGgJsO2guwP1Y79ZvWw1ISgXQSRqkOO6I1OZVowS33J0qDda4UTn07EA4TnC73p1oG5RP7OTyz03yXXd20VJyXHvczfiXOrIDULylcRv2YQ4xojTh7opi6Lb3vhlLSgd4sPJJDqrkMeRiHf4K1s/8K8tbBFhPxXnXB+CCftgTC+f1nGZukfMcAmCzvnqCIqwZVrtXO3kwPTs40kKZWqMaDJSArbdOob21ydXuk+ajpC54Zkksl1hlJVKOASwLaDpIJSUOGpqB9iLwyqbtRy68PfZ7BMA/Ga0ZmLIOl2itVIZ0O7mrXem5Oz1t3DhApaa1D/YAuZISiK8sGm/m+nqim8XsbuISZclS4RMQliIwswuo1T1/kDdqxijBnHIq2vZhtba6qjaRYFgeg6pnoMYIjds9mpWOz0ilyAB5wQG9ZyJpjwELxEvMmsbo5PoeRWoXX2G3U9HeQWLb2fQY/o361eIWXrFUakYryOEdJvliTCRlUu7tR4i4FTAxhdLAPV51ngEJRfwlp4/cqT4fZHfNPYqp75JEb9pWfgG4e8r5sTrZxN+muucL+FWlVuF7r+SP6AE7ar8nFHQlwcxFLeUimVS3nj0Bjk/Rpt1aYOZ4mx/ihaUyDvGJqvrBRZ2vklT37YEeS/28gQ="
   bucket: software-buildingrobotics
   local-dir: wheel/dist
-  upload-dir: python_saml
+  upload-dir: python3_saml
   region: us-west-1
   skip_cleanup: true
   on:
-    repo: BuildingRobotics/python-saml
+    repo: BuildingRobotics/python3-saml
     branch: master
