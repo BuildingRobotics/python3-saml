@@ -26,7 +26,7 @@ after_success: 'coveralls'
 before_deploy:
   # Create wheel
   - pip wheel -w wheel .
-  - mkdir wheel/dist/ && mv wheel/python_saml* wheel/dist/
+  - mkdir wheel/dist/ && mv wheel/python3_saml* wheel/dist/
 
 # Upload master wheels to S3 for pypicloud
 deploy:
